@@ -30,7 +30,7 @@ public abstract class EagleModel {
      * 开始行动
      * 这里模板方法加入final修饰，防止被覆写
      */
-    final void move() {
+    final public void move() {
         this.start();
         this.fly();
         this.call();

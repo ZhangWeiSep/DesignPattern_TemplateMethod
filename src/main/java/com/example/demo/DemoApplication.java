@@ -9,12 +9,12 @@ public class DemoApplication {
     public static void main(String[] args) {
 //        SpringApplication.run(DemoApplication.class, args);
         //白鹰模型
-        EagleModel eagleModel = new WhiteEagle();
-        eagleModel.move();
+        WhiteEagle whiteEagle = new WhiteEagle();
+        whiteEagle.move();
 
         //黑鹰模型
-        eagleModel = new BlackEagle();
-        eagleModel.move();
+        BlackEagle blackEagle = new BlackEagle();
+        blackEagle.move();
     }
 
 }
